@@ -12,60 +12,18 @@ open Giraffe
 open Microsoft.FSharpLu.Json
 open Newtonsoft.Json
 
-// ---------------------------------
-// Models
-// ---------------------------------
-
-type Message =
-    {
-        Text : string
-    }
 
 // ---------------------------------
-// Views
+// Routing
 // ---------------------------------
-
-module Views =
-    open Giraffe.ViewEngine
-
-    let layout (content: XmlNode list) =
-        html [] [
-            head [] [
-                title []  [ encodedText "todo.web" ]
-                link [ _rel  "stylesheet"
-                       _type "text/css"
-                       _href "/main.css" ]
-            ]
-            body [] content
-        ]
-
-    let partial () =
-        h1 [] [ encodedText "todo.web" ]
-
-    let index (model : Message) =
-        [
-            partial()
-            p [] [ encodedText model.Text ]
-        ] |> layout
-
-// ---------------------------------
-// Web app
-// ---------------------------------
-
-let indexHandler (name : string) =
-    let greetings = $"Hello %s{name}, from Giraffe!"
-    let model     = { Text = greetings }
-    let view      = Views.index model
-    htmlView view
 
 let webApp =
     choose [
         GET >=>
             choose [
-                route "/" >=> indexHandler "world"
-                routef "/hello/%s" indexHandler
-                route "/todos" >=> Controllers.getAllHandler
-
+                route "/todos" >=> Controllers.getActiveHandler
+                route "/todos/all" >=> Controllers.getAllHandler
+                routef "/todos/%i" Controllers.getHandler
             ]
         setStatusCode 404 >=> text "Not Found" ]
 

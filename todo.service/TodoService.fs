@@ -9,10 +9,12 @@ let mutable data =
     [ for i in 0 .. 10 ->
           { description = ("task " + i.ToString())
             id = Some i
-            completed = false } ]
+            completed = i % 3 = 0 } ]
 
 // GETs
 let getAll = data
+
+let getActive = data |> List.filter (fun t -> not t.completed)
 
 let get id = data |> List.tryFind (fun x -> x.id.Value = id)
 

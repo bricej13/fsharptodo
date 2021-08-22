@@ -1,0 +1,372 @@
+GET http://localhost:5000/todos/all
+Accept: application/json
+
+<> 2021-08-22T091812.200.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T091806.200.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T091713.200.json
+
+###
+
+GET http://localhost:5000/todos/10
+Accept: application/json
+
+<> 2021-08-22T091432.200.json
+
+###
+
+GET http://localhost:5000/todos/11
+Accept: application/json
+
+<> 2021-08-22T091427.404.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T091424.200.json
+
+###
+
+GET http://localhost:5000/todos/11
+Accept: application/json
+
+<> 2021-08-22T090817.200.json
+
+###
+
+GET http://localhost:5000/todos/10
+Accept: application/json
+
+<> 2021-08-22T090806.200.json
+
+###
+
+GET http://localhost:5000/todos/1
+Accept: application/json
+
+<> 2021-08-22T090801.200.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T090749.200.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T090507.200.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T085832.200.json
+
+###
+
+GET http://localhost:5000/todos
+Accept: application/json
+
+<> 2021-08-22T085706.200.json
+
+###
+
+GET http://localhost:5000
+Accept: text/html
+
+<> 2021-08-22T084558.200.html
+
+###
+
+GET http://localhost:80
+Accept: text/html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T224612.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T224607.200.html
+
+###
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "id": null,
+  "description": "Mow the lawn",
+  "completed": false
+}
+
+<> 2021-08-21T224402.500.html
+
+###
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "id": null,
+  "description": "Mow the lawn",
+  "completed": false
+}
+
+<> 2021-08-21T223545.500.html
+
+###
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+ "description": "Mow the lawn"
+}
+
+<> 2021-08-21T223506.500.html
+
+###
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+ "description": "Mow the lawn"
+}
+
+<> 2021-08-21T222938.500.html
+
+###
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+ "description": "Mow the lawn"
+}
+
+<> 2021-08-21T222934.500.html
+
+###
+
+POST http://localhost:8080/todos
+Accept: application/json
+
+{
+ "description": "Mow the lawn"
+}
+
+<> 2021-08-21T222915.500.html
+
+###
+
+DELETE http://localhost:8080/todos/7
+Accept: application/json
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T220651.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T220648.404.html
+
+###
+
+DELETE http://localhost:8080/todos/7
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T220622.404.html
+
+###
+
+PUT http://localhost:8080/todos/8
+Accept: application/json
+
+<> 2021-08-21T220619.200.html
+
+###
+
+DELETE http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T220608.404.html
+
+###
+
+DELETE http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T220542.404.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T220526.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215731.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215730-1.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215730.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215729.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T215727.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T215726.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T215725-1.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T215725.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215723.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215722.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215721.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-21T215718.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T215714.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T214246.200.html
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-21T214236.200.html
+
+###
+
+GET http://localhost:8080/todos/7
+Accept: application/json
+
+<> 2021-08-19T220402.200.html
+
+###
+
+POST http://localhost:8080/todos
+Accept: application/json
+
+<> 2021-08-19T220358.200.html
+
+###
+
+GET http://localhost:8080/todos/asdf/asd/fasd/fa/sdf/ad
+Accept: application/json
+
+<> 2021-08-19T220228.404.html
+
+###
+

@@ -1,2 +1,10 @@
 GET {{baseUrl}}/todos
 Accept: application/json
+
+###
+GET {{baseUrl}}/todos/all
+Accept: application/json
+
+###
+GET {{baseUrl}}/todos/10
+Accept: application/json
