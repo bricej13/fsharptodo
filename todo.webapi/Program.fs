@@ -1,6 +1,7 @@
 ﻿open Suave
 open Suave.Filters
 open Suave.Operators
+open Suave.Json
 open todo.webapi
 
 let app =
@@ -8,7 +9,8 @@ let app =
              >=> choose [ pathCi "/todos" >=> todo_service.getAll
                           pathScanCi "/todos/%d" todo_service.get ]
              POST
-             >=> choose [ pathCi "/todos" >=> todo_service.create ]
+             >=> choose [ pathCi "/todos" >=>
+                          mapJson todo_service.create ]
              PUT
              >=> choose [ pathScanCi "/todos/%d" todo_service.update
                           pathScanCi "/todos/%d/complete" todo_service.complete ]
