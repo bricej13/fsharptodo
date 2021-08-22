@@ -1,0 +1,23 @@
+GET http://{{baseUrl}}/todos
+Accept: application/json
+
+###
+GET http://{{baseUrl}}/todos/7
+Accept: application/json
+
+###
+POST http://{{baseUrl}}/todos
+Accept: application/json
+
+###
+PUT http://{{baseUrl}}/todos/8
+Accept: application/json
+
+###
+PUT http://{{baseUrl}}/todos/8/complete
+Accept: application/json
+
+###
+DELETE http://{{baseUrl}}/todos/7
+Accept: application/json
+
