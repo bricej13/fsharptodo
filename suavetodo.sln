@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "todo.webapi", "todo.webapi\todo.webapi.fsproj", "{2D8FCA1A-FD48-41C1-9244-6786398C34C9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "todo.service", "todo.service\todo.service.fsproj", "{76CAD016-55D7-4865-A50A-2EC809287430}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "todo.web", "todo.web\todo.web.fsproj", "{61FDCB38-E266-4923-8A69-63FEDC409AA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,15 @@ Global
 		{2D8FCA1A-FD48-41C1-9244-6786398C34C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D8FCA1A-FD48-41C1-9244-6786398C34C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D8FCA1A-FD48-41C1-9244-6786398C34C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CAD016-55D7-4865-A50A-2EC809287430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CAD016-55D7-4865-A50A-2EC809287430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CAD016-55D7-4865-A50A-2EC809287430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CAD016-55D7-4865-A50A-2EC809287430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FDCB38-E266-4923-8A69-63FEDC409AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FDCB38-E266-4923-8A69-63FEDC409AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FDCB38-E266-4923-8A69-63FEDC409AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FDCB38-E266-4923-8A69-63FEDC409AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal

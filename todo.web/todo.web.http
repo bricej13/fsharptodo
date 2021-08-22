@@ -1,0 +1,2 @@
+GET {{baseUrl}}/todos
+Accept: application/json

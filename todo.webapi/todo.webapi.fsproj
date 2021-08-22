@@ -8,16 +8,13 @@
 
     <ItemGroup>
         <Compile Include="types.fs" />
-        <Compile Include="todo_service.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Include=".dockerignore" />
       <Content Include="Dockerfile" />
-      <Content Include="http-client.env.json" />
       <Content Include="todos.http" />
-      <Content Include=".gitignore" />
     </ItemGroup>
 
     <ItemGroup>

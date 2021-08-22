@@ -6,15 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Project.fs" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Suave" Version="2.6.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Include="Properties\launchSettings.json" />
+        <Compile Include="TodoService.fs" />
     </ItemGroup>
 
 </Project>
